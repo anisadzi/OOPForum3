@@ -43,7 +43,7 @@ public class Driver {
             int withdraw = in.nextInt();
 
             Bank.getCustomer(index-1).getAccount.withdraw(withdraw);
-            System.out.println("Balance :", (balance %f \n), bank.getCustomer(index-1).getAccount().getBalance());
+            System.out.printf("Balance : %f \n", Bank.getCustomer(index-1).getAccount().getBalance());
         }
     }
 }
